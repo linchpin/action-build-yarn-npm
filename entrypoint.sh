@@ -79,6 +79,7 @@ then
 		    if grep -q build:production "$build_file_path";
 			then
 			echo "Building project using gulp"
+			npm install gulp-cli
 			gulp build:production
 		    fi
 	    else
