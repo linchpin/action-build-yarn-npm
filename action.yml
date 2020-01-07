@@ -1,0 +1,17 @@
+name: 'Build Yarn and npm'
+description: 'Builds Yarn or npm files'
+author: 'Linchpin'
+inputs:
+  working_directory:
+    description: 'The directory that contains the Yarn or npm files'
+    required: false
+    default: './'
+outputs:
+  success:
+    description: 'Did the build happen or not?'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'package'
+  color: 'blue'
