@@ -71,7 +71,7 @@ then
 		echo "Initiating Bower Install"
 
 		npm install -g bower
-		bower install
+		bower install --allow-root
 	    fi
 
 	    if [ $build_type = "gulp" ]
