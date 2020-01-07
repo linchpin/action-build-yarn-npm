@@ -9,6 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g yarn
 
-RUN chmod +x *.sh
+COPY *.sh /
+RUN chmod +x /*.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
