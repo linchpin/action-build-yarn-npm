@@ -36,4 +36,4 @@ jobs:
 * Tests and Validation
 * Community Feedback 
 
-![Linchpin](https://github.com/linchpin/brand-assets/raw/master/github-opensource-banner.png)
+![[Linchpin](https://github.com/linchpin/brand-assets/raw/master/github-opensource-banner.png)](https://linchpin.com)
